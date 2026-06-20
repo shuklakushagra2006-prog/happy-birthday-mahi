@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Mahi ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(-45deg,#ff758c,#ff7eb3,#ff9a9e,#fad0c4);
+background-size:400% 400%;
+animation:gradientBG 12s ease infinite;
+color:white;
+overflow-x:hidden;
+}
+
+@keyframes gradientBG{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+section{
+padding:80px 10%;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:20px;
+text-shadow:0 0 20px rgba(255,255,255,.3);
+}
+
+.hero p{
+max-width:750px;
+font-size:1.2rem;
+line-height:1.9;
+}
+
+.btn{
+padding:15px 30px;
+margin:12px;
+border:none;
+border-radius:50px;
+font-size:17px;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+}
+
+.surprise-btn{
+background:white;
+color:#ff4d88;
+}
+
+.music-btn{
+background:#fff0f5;
+color:#ff4d88;
+}
+
+.card{
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:25px;
+margin-top:25px;
+box-shadow:0 8px 30px rgba(0,0,0,.1);
+}
+
+h2{
+text-align:center;
+margin-bottom:25px;
+font-size:2.2rem;
+}
+
+.reasons{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.reason{
+background:rgba(255,255,255,.15);
+padding:20px;
+border-radius:20px;
+}
+
+.timeline-item{
+background:rgba(255,255,255,.15);
+padding:20px;
+border-radius:20px;
+margin-bottom:15px;
+}
+
+.footer{
+text-align:center;
+padding:100px 10%;
+line-height:2;
+}
+
+.heart{
+position:fixed;
+font-size:24px;
+pointer-events:none;
+animation:floatUp 5s linear forwards;
+}
+
+@keyframes floatUp{
+0%{
+transform:translateY(100vh);
+opacity:1;
+}
+100%{
+transform:translateY(-100vh);
+opacity:0;
+}
+}
+
+.sparkle{
+position:fixed;
+animation:twinkle 4s infinite;
+pointer-events:none;
+}
+
+@keyframes twinkle{
+0%,100%{opacity:.2;}
+50%{opacity:1;}
+}
+
+#surpriseText{
+display:none;
+margin-top:20px;
+font-size:1.3rem;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>🎂 Happy Birthday Mahi ❤️</h1>
+
+<p>
+To my sister from another mother,
+
+No matter how many miles separate us,
+you will always have a special place in my heart.
+
+This little website is dedicated to one of the most precious people in my life.
+
+Thank you for being you. ❤️
+</p>
+
+<button class="btn surprise-btn" onclick="showSurprise()">
+🎁 Open Your Surprise
+</button>
+
+<div id="surpriseText">
+✨ You are one of the most precious people in my life, Mahi ❤️ ✨
+</div>
+
+</section>
+
+<section>
+
+<h2>🎂 Birthday Song For Mahi 🎂</h2>
+
+<div class="card" style="text-align:center;">
+
+<p style="font-size:1.2rem;line-height:2;">
+🎶 Happy Birthday to You<br>
+Happy Birthday to You<br>
+Happy Birthday Dear Mahi<br>
+Happy Birthday to You ❤️🎂
+</p>
+
+<br>
+
+<button class="btn music-btn" onclick="playBirthdaySong()">
+🎵 Play Birthday Song
+</button>
+
+<div id="birthdaySong"></div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>💌 A Letter For You</h2>
+
+<div class="card">
+
+<p>
+
+Dear Mahi,
+
+Happy Birthday to the most precious sister I could ever ask for.
+
+You are not just my friend.
+You are family.
+
+Thank you for every laugh, every conversation, every memory, and every moment of support.
+
+Even though we are far apart, you've never felt far away.
+
+Your presence has made my life brighter, happier, and more meaningful.
+
+I wish you happiness, success, good health, and countless reasons to smile.
+
+May every dream in your heart come true.
+
+Happy Birthday, Mahi ❤️
+
+<br><br>
+
+With lots of love,<br>
+<b>Kushagra</b>
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>💖 10 Reasons Why You're My Favorite Sister</h2>
+
+<div class="reasons">
+
+<div class="reason">❤️ You always listen.</div>
+<div class="reason">❤️ Your happiness makes me happy.</div>
+<div class="reason">❤️ You support me without judging.</div>
+<div class="reason">❤️ Distance never weakened our bond.</div>
+<div class="reason">❤️ You make difficult days easier.</div>
+<div class="reason">❤️ You believe in me.</div>
+<div class="reason">❤️ You are genuinely kind.</div>
+<div class="reason">❤️ You treat me like family.</div>
+<div class="reason">❤️ Every conversation becomes a memory.</div>
+<div class="reason">❤️ Because you're Mahi.</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🕰️ Our Friendship Timeline</h2>
+
+<div class="timeline-item">
+🌱 The Beginning — The day we first started talking.
+</div>
+
+<div class="timeline-item">
+😊 Getting Comfortable — Random chats became daily conversations.
+</div>
+
+<div class="timeline-item">
+😂 The Fun Times — Endless jokes, laughter, and memories.
+</div>
+
+<div class="timeline-item">
+🤝 Always There — Supporting each other through everything.
+</div>
+
+<div class="timeline-item">
+❤️ Sister From Another Mother — Friendship became family.
+</div>
+
+<div class="timeline-item">
+🎂 Today — Celebrating your special day together from afar.
+</div>
+
+</section>
+
+<section class="footer">
+
+<h2>❤️ One Last Thing ❤️</h2>
+
+<p>
+
+Distance may keep us apart,
+but it can never reduce the love,
+respect, and care I have for you.
+
+Thank you for being my sister from another mother,
+my friend,
+and one of the most precious people in my life.
+
+</p>
+
+<br>
+
+<h2>Happy Birthday Mahi 🎂❤️</h2>
+
+<p>
+Forever cheering for you,<br>
+<b>Kushagra</b>
+</p>
+
+</section>
+
+<script>
+
+function playBirthdaySong(){
+
+document.getElementById("birthdaySong").innerHTML = `
+<iframe
+width="0"
+height="0"
+src="https://www.youtube.com/embed/inS9gAgSENE?autoplay=1"
+allow="autoplay">
+</iframe>
+`;
+
+}
+
+function showSurprise(){
+
+document.getElementById("surpriseText").style.display="block";
+
+for(let i=0;i<60;i++){
+
+let heart=document.createElement("div");
+
+heart.className="heart";
+heart.innerHTML="❤️";
+heart.style.left=Math.random()*100+"vw";
+
+document.body.appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},5000);
+
+}
+}
+
+for(let i=0;i<50;i++){
+
+let star=document.createElement("div");
+
+star.className="sparkle";
+star.innerHTML="✨";
+
+star.style.left=Math.random()*100+"vw";
+star.style.top=Math.random()*100+"vh";
+star.style.animationDelay=Math.random()*4+"s";
+
+document.body.appendChild(star);
+
+}
+
+</script>
+
+</body>
+</html>
